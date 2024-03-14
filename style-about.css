@@ -1,0 +1,141 @@
+body{
+    background-color: #EEE2DE;
+    font-family: sans-serif;
+    margin-left: 400px;
+    margin-right: 400px;
+    place-content: center;
+}
+#home_about{
+    background-color: #EEE2DE;
+    font-family: sans-serif;
+    /* margin-left: 35px; */
+    padding-left: 20px;
+    /* margin-right: 400px; */
+    place-content: center;
+    display:flex;
+    justify-content:space-evenly;
+}
+#blocks{
+    margin-top: 100px;
+    margin-left: -400px;
+    padding-left: 10px;
+    /* margin-top:10px; */
+    margin-right: -400px;
+    border: 1px;
+    height: 350px;
+}
+
+#con{
+    display:flex;
+    justify-content:space-evenly;
+    transition: 1s;
+
+}
+
+h1{
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid  rgba(197, 195, 195, 0.826); 
+   line-height: 0.1px;
+}
+
+h1 span { 
+    background:#EEE2DE; 
+}
+
+#intern-block{
+    border: 1px solid rgba(197, 195, 195, 0.826);
+    border-radius: 12px;
+    padding-left: 10px;
+    height: 350px;
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+    /* align-items: center;
+    justify-content: space-evenly; */
+
+}
+
+.outer{
+    display: table;
+    border: 1px solid  rgba(197, 195, 195, 0.826);
+}
+.image1{
+    background-image:url(image.png);
+    background-position: center;
+    background-size: contain;
+    background-position-x: center;
+    
+}
+
+.image2{
+    background-image:url(image2.webp);
+    background-position:center;
+    background-size: contain;
+    background-position-x: center;
+    
+}
+.image3{
+    background-image:url(image3.png);
+    background-position: center;
+    background-size: contain;
+    background-position-x: center;
+    
+}
+.image4{
+    background-image:url(image5.webp);
+    background-position: center;
+    background-size: contain;
+    background-position-x: center;
+    
+}
+.image4:hover{
+    transform:scale(1.2);
+    z-index: 1.5x;
+}
+.image5{
+    background-image:url(image6.webp);
+    background-position: center;
+    background-size: contain;
+    background-position-x: center;
+    
+    
+}
+.image5:hover{
+    transform:scale(1.2);
+    z-index: 1.5x;
+}
+.image6{
+    background-image:url(image7.jpg);
+    background-position: center;
+    background-size: contain;
+    background-position-x: center;
+    
+}
+.image6:hover{
+    transform:scale(1.2);
+    z-index: 1.5x;
+}
+.image7{
+    background-image:url(image8.jpg);
+    background-position: center;
+    background-size: contain;
+    background-position-x: center;
+    
+}
+.image7:hover{
+    transform:scale(1.2);
+    z-index: 1.5x;
+}
+.image8{
+    background-image:url(image9.webp);
+    background-position: center;
+    background-size: contain;
+    background-position-x: center;
+    
+}
+.image8:hover{
+    transform:scale(1.2);
+    z-index: 1.5x;
+}
